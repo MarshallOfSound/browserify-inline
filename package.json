@@ -1,5 +1,5 @@
 {
-  "name": "browserify-inline",
+  "name": "browserify-inline-fn",
   "version": "1.0.0",
   "description": "Call node.js (server-side) directly from browserify client-side code at build time",
   "main": "index.js",
@@ -8,19 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eirikb/browserify-inline"
+    "url": "https://github.com/marshallofsound/browserify-inline"
   },
   "keywords": [
     "browserify",
     "browserify-transform"
   ],
-  "author": "eirikb@eirikb.no",
+  "author": "samuel.r.attard@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eirikb/browserify-inline"
+    "url": "https://github.com/marshallofsound/browserify-inline"
   },
-  "homepage": "https://github.com/eirikb/browserify-inline",
+  "homepage": "https://github.com/marshallofsound/browserify-inline",
   "dependencies": {
-    "static-module": "^1.1.2"
+    "static-module": "^1.1.2",
+    "string-escape": "^0.3.0"
   }
 }
